@@ -57,7 +57,7 @@ services:
       - rabbitmq
 
   elasticsearch:
-    image: elasticsearch:alpine
+    image: elasticsearch
     container_name: sc-elasticsearch
     restart: always
     volumes:
